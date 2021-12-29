@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+
+html,h1,h2,h3,h4,h5,h6 {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700; 
+}
+#datenschutz h3, #datenschutz h6, #impressum h3, #impressum h6, #leistungsspektrum h6 {
+    font-family: 'Cinzel', cursive;
+    font-weight: 700; 
+    line-height: 1;
+}
+#leistungsspektrum h6 {
+    padding-left: 0em;
+    padding-top: 0.6em;
+    font-size: 1.0em;
+    color: rgb(0, 77, 91);
+}
+#datenschutz h1 {
+    font-size: 1.3em;
+    padding-bottom: none;
+}
+#datenschutz h3 {
+    font-size: 1em;
+}
+#datenschutz h6 {
+    padding-left: 2em;
+    padding-top: 0.2em;
+    font-size: 0.8em;
+}
+#datenschutz p, #datenschutz ul {
+    font-size: 0.7em;
+    line-height: 1.5;
+}
+#datenschutz a, #impressum a {
+    color: rgba(0,0,0,0.5);
+}
+a {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding:0;
+    margin:0;
+    background:#fff;
+}
+
+/* Logo in the header */
+/* .image_logo {
+    width:2.8em;
+    height:2.8em;
+    background-image: url(/images/logo/logo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition-property: background-image;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+.image_logo:hover {
+    background-image: url(/images/logo/logo_inverted.svg);
+} */
+
+/* menu collapsed button*/
+.myCollapsedMenuBarIcon {
+    width:2.5em;
+    height:2.5em;
+    margin: 0.7em;
+    background-image: url(/images/logo/menuBar.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+}
+.myCollapsesdMenuBarIcon:hover {
+    background-image: url(/images/logo/menuBar_inverted.svg);
+}
+
+/* navigation */
+.navbar {
+    background:rgb(0, 77, 91);
+    /* padding-bottom:3px; */
+}
+.nav-link, .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+    border:none;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    /* padding-bottom:3px; */
+}
+.nav-link {
+    margin-right: 1em !important;
+    border-style:solid;
+    border-width: 0px 0px 0.1px 0px;
+    border-color: rgba(255, 255, 255, 0);
+    padding-bottom:3px;
+    opacity:0.95;
+}
+.nav-link:hover {
+    /* background: #f4f4f4;
+    color: rgb(0, 77, 91); */
+    border-style:solid;
+    border-width: 0px 0px 0.1px 0px;
+    border-color: rgba(255, 255, 255, 1);
+    padding-bottom:3px;
+    color: white;
+    opacity:1;
+    transition: all .3s ease-in;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.navbar-toggler {
+    /*background:#fff !important;*/
+    line-height: 0.6;
+    border-radius:50%;
+    /* padding-bottom:3px; */
+}
+
+button:focus {
+    outline: none;
+}
+button:active,.button:active:focus,.button:visited {
+    outline: none;
+}
+
+
+/* header with image and description text */
+.header {
+    position: relative;
+    background-image: url('/images/banner/naumburg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /* filter: grayscale(80%) contrast(150%) brightness(1) opacity(50%);
+    -webkit-filter: grayscale(80%) contrast(150%) opacity(60%); */
+
+}
+/* header transparent overlay */
+.rectangle {
+    position: absolute;
+    min-height: 10%;
+    min-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7);
+}
+/* description box */
+.description {
+    position: absolute;
+    top: 60%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1 {
+    color:rgb(0, 103, 121);
+    /* color:#fff; */
+    font-weight: 700;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Cinzel Decorative', cursive;
+    line-height: 1.8;
+    text-align: center;
+}
+.description p {
+    color:rgb(0, 77, 91);
+    font-size: 26px;
+    font-weight:normal;
+    width: 100%;
+    /* max-width:640px; */
+    line-height: 1.5;
+    /* padding: 2em 0 1em 0; */
+    text-align: center;
+    font-weight: 300;
+}
+.description button {
+    background:#fff;
+    color:rgb(0, 77, 91);
+/*    background:#560020ff;*/
+/*    color:#fff;*/
+    border:none;
+}
+.btn btn-outline-secondary {
+    background:#fff;
+    color:rgb(0, 77, 91);
+    border:none;
+}
+
+/* Main page parts: Home page, Praxis-Philosophie, Team, Leistungsspektrum, Service, Kontakt, Impressum, Datenschutz */
+.mainpageparts {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.mainpageparts h1 {
+    color:rgb(0, 77, 91);
+    margin: 1.6em 0 0 0;
+    text-align:left;
+}
+.mainpageparts img {
+    /*height: 100%;*/
+    width: 100%;
+    padding:2.5em 0 0 0.1em;
+}
+/* image caption left */
+.mainpageparts span {
+    /*display: block;*/
+    text-align:left;
+    color: #000;
+    position: absolute;
+    padding: 1em 0 0 0;
+}
+/* Text Block right side container */
+/* vertical line */
+.mainpageparts .desc {
+    padding: 2.5em 1em 0 1em;
+}
+/* subheadings of the text block */
+.mainpageparts .desc h3 {
+    color: rgb(0, 77, 91);
+    font-size:20px;
+    font-weight:bold;
+}
+/* text of text block right side */
+.mainpageparts .desc p {
+    line-height:1.75;
+    color:#000;
+    padding-top:1em;
+}
+/* text of text block right side indented in day trips */
+.p2 {
+    line-height:1.75;
+    color:#000;
+    /* padding-top:1em; */
+    margin-top:-15px;
+    margin-left:-12px;
+    /* margin-bottom: -25px; */
+}
+
+
+/* Philosophie background image */
+#philosophie {
+    position: relative;
+    background-image: url('/images/banner/plant.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /* filter: grayscale(80%) contrast(150%) brightness(1) opacity(50%);
+    -webkit-filter: grayscale(80%) contrast(150%) opacity(60%); */
+
+}
+#teampic {
+    padding:0em;
+    filter: grayscale(80%) contrast(150%) brightness(1) opacity(50%);
+    -webkit-filter: grayscale(80%) contrast(150%) opacity(60%);
+}
+
+/* Mainpage Gallery Bilder */
+.galerie h1 {
+    color:#560020ff;
+    margin: 1.6em 0 0 0;
+    text-align:left;
+}
+.maingalerie {
+    margin: 4em 0;
+    position: relative;
+}
+.maingalerie .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+.maingalerie img {
+    height: 15rem;
+    width: 100%;
+    margin: 0em;
+}
+.maingalerie .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+/*
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+*/
+
+
+/* Bildergalerie */
+.bildergalerie {
+    margin:0.1em 0 0.5em 0;
+}
+.thumb {
+    margin-bottom: 1.5em;
+}
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/* Kontakt */
+#kontakt img {
+    width: 100%;
+}
+#kontakt span {
+    /*display: block;*/
+    text-align:left;
+    color: #000;
+    position: absolute;
+    padding: 1em 0 0 0;
+}
+table {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 1.6em;
+}
+
+/* CSS specific to iOS devices */ 
+/* background-attachment: fixed; doesn't work on iOS */
+@supports (-webkit-overflow-scrolling: touch) {
+    .header {
+        background-attachment: scroll;
+    }
+}
