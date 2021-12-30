@@ -5,5 +5,4 @@ Die Gesunderhaltung Ihrer Zähne liegt uns am Herzen
 <img src="zahn-heuer-naumburg.jpg" />
 
 <br />
-<br />
-[Website der Zahnarztpraxis B. Heuer](https://zahn-heuer-naumburg.github.io)
+<a href="https://zahn-heuer-naumburg.github.io" style="color:rgb(0,0,0);">Website der Zahnarztpraxis B. Heuer
