@@ -1,5 +1,3 @@
-Website der Zahnarztpraxis B. Heuer
-
 # Willkommen in der Zahnarztpraxis B. Heuer in Naumburg
 Die Gesunderhaltung Ihrer Zähne liegt uns am Herzen
 <br /><br />
