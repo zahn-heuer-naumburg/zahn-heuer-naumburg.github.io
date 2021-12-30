@@ -206,6 +206,7 @@ button:active,.button:active:focus,.button:visited {
 }
 .mainpageparts h1 {
     color:rgb(0, 77, 91);
+    /* this margin adjusts where it will scroll to*/
     margin: 2.2em 0 0 0;
     text-align:left;
 }
