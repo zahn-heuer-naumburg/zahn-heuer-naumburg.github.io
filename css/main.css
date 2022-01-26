@@ -272,6 +272,17 @@ button:active,.button:active:focus,.button:visited {
     -webkit-filter: grayscale(80%) contrast(150%) opacity(60%);
 }
 
+#jobs {
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
 /* Mainpage Gallery Bilder */
 .galerie h1 {
     color:#560020ff;
