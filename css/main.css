@@ -226,7 +226,7 @@ button:active,.button:active:focus,.button:visited {
 /* header with image and description text */
 .header {
     position: relative;
-    background-image: url('/images/banner/naumburg.jpg');
+    background-image: url('../images/banner/naumburg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -346,7 +346,7 @@ button:active,.button:active:focus,.button:visited {
 /* Philosophie background image */
 #philosophie {
     position: relative;
-    background-image: url('/images/banner/plant.jpg');
+    background-image: url('../images/banner/plant.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
