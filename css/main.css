@@ -374,6 +374,27 @@ button:active,.button:active:focus,.button:visited {
     -o-background-size: cover;
     background-position: center;
 }
+#emergencyservice {
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
+#holidays {
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
 
 /* Mainpage Gallery Bilder */
 .galerie h1 {
